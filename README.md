@@ -1,12 +1,47 @@
-# AI-Ecommerce-ChatbotAmazon
-AI-Ecommerce-ChatbotAmazon using Groq API
+# AI Ecommerce Chatbot for Amazon (Prototype)
+
+This project presents a prototype of an **Ecommerce chatbot** tailored for Amazon-style product interactions, implemented in a Jupyter Notebook (**`amazon_ecommerce_chatbot.ipynb`**).  
+
+It demonstrates how a conversational agent can answer user queries, recommend or retrieve product info, and engage in simple dialogue.
 
 ---
-## 🌐 Live Demo
 
-👉 **Try it now:** [https://0610cfa4ee23f33925.gradio.live/](https://0610cfa4ee23f33925.gradio.live/)
+## 🧩 Features & Workflow
+
+- Ingest or simulate an Amazon product catalog (product names, descriptions, images)  
+- Build or load embeddings / feature representations of products  
+- Use a language model (e.g. HuggingFace or other LLM) to interpret user queries  
+- Retrieve relevant products or information via similarity / retrieval  
+- Generate responses combining context + retrieved product data  
+- (Optionally) handle basic dialog state, turn-taking, fallback handling  
 
 ---
-## Dataset download link
-👉 **Try it now:** [https://drive.google.com/file/d/10j0MaRtnbKTVoArf1Omvr3Pc4dyF9Chi/view?pli=1](https://drive.google.com/file/d/10j0MaRtnbKTVoArf1Omvr3Pc4dyF9Chi/view?pli=1)
 
+## 📦 Dependencies
+
+You’ll typically need:
+
+- Python 3.8+  
+- Jupyter Notebook  
+- `transformers`  
+- `torch`  
+- Similarity / embedding libraries (e.g. `sentence_transformers`)  
+- Any dataset / storage for product catalog  
+- Possibly additional packages like `faiss`, `sklearn`, etc.
+
+Install via:
+
+```bash
+pip install transformers torch sentence-transformers faiss-cpu
+```
+---
+## Clone the repo
+```
+git clone https://github.com/chandrasai-Durgapu/AI-Ecommerce-ChatbotAmazon.git
+cd AI-Ecommerce-ChatbotAmazon
+```
+## Launch the repo
+```
+jupyter notebook amazon_ecommerce_chatbot.ipynb
+```
+---
