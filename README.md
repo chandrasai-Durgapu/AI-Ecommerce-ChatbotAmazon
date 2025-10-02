@@ -17,6 +17,18 @@ It demonstrates how a conversational agent can answer user queries, recommend or
 
 ---
 
+## Demo Screenshots
+
+## 💬 Chatbot Demo
+
+![Chatbot Interface 1](https://raw.githubusercontent.com/chandrasai-Durgapu/AI-Ecommerce-ChatbotAmazon/main/amazon-ecommerce-cahtbot1.png)
+
+![Chatbot Interface 2](https://raw.githubusercontent.com/chandrasai-Durgapu/AI-Ecommerce-ChatbotAmazon/main/amazon-ecommerce-cahtbot2.png)
+
+![Chatbot Interface 3](https://raw.githubusercontent.com/chandrasai-Durgapu/AI-Ecommerce-ChatbotAmazon/main/amazon-ecommerce-cahtbot3.png)
+
+---
+
 ## 📦 Dependencies
 
 You’ll typically need:
