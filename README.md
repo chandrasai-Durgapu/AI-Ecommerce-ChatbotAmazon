@@ -45,3 +45,12 @@ cd AI-Ecommerce-ChatbotAmazon
 jupyter notebook amazon_ecommerce_chatbot.ipynb
 ```
 ---
+## Use Cases
+
+This AI-powered chatbot prototype is ideal for:
+
+E-commerce Platforms: Enhancing user experience through conversational interfaces.
+
+Product Discovery: Assisting users in finding products based on natural language queries.
+
+Customer Support: Providing automated responses to common customer inquiries.
