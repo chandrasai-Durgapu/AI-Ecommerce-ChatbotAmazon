@@ -40,6 +40,13 @@ pip install transformers torch sentence-transformers faiss-cpu
 git clone https://github.com/chandrasai-Durgapu/AI-Ecommerce-ChatbotAmazon.git
 cd AI-Ecommerce-ChatbotAmazon
 ```
+## Set Up a Python Environment:
+
+It's recommended to use a virtual environment:
+```bash
+python -m venv chatbot-env
+source chatbot-env/bin/activate  # On Windows, use `chatbot-env\Scripts\activate`
+```
 ## Launch the repo
 ```
 jupyter notebook amazon_ecommerce_chatbot.ipynb
